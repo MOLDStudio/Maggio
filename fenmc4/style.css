@@ -121,7 +121,7 @@ border-top-color: var(--cyan);
 border-radius: 5px;
 }
 .cuerpo__contenedor:first-child::before{
-    content: url(/4/four-card-feature-section-master/images/icon-supervisor.svg);
+    content: url(https://raw.githubusercontent.com/MOLDStudio/Maggio/0083eb00cf23ac8c1e18d5adbf0c5dfafa58930d/fenmc4/images/icon-supervisor.svg);
     margin-left: 72%;
     margin-top: 43%;
     position: absolute;
@@ -130,7 +130,7 @@ border-radius: 5px;
     border-top-color: var(--cyan);
 }
 .cuerpo__contenedor:nth-child(2)::before{
-    content: url(/4/four-card-feature-section-master/images/icon-team-builder.svg);
+    content: url(https://raw.githubusercontent.com/MOLDStudio/Maggio/0083eb00cf23ac8c1e18d5adbf0c5dfafa58930d/fenmc4/images/icon-team-builder.svg);
     margin-left: 72%;
     margin-top: 43%;
     position: absolute;
@@ -144,7 +144,7 @@ border-radius: 5px;
     border-radius: 5px;
     }
 .cuerpo__contenedor:nth-child(3)::before{
-    content: url(/4/four-card-feature-section-master/images/icon-karma.svg);
+    content: url(https://raw.githubusercontent.com/MOLDStudio/Maggio/0083eb00cf23ac8c1e18d5adbf0c5dfafa58930d/fenmc4/images/icon-karma.svg);
     margin-left: 72%;
     margin-top: 43%;
     position: absolute;
@@ -158,7 +158,7 @@ border-radius: 5px;
     border-radius: 5px;
     }
 .cuerpo__contenedor:last-child::before{
-    content: url(/4/four-card-feature-section-master/images/icon-calculator.svg);
+    content: url(https://raw.githubusercontent.com/MOLDStudio/Maggio/0083eb00cf23ac8c1e18d5adbf0c5dfafa58930d/fenmc4/images/icon-calculator.svg);
     margin-left: 72%;
     margin-top: 43%;
     position: absolute;
