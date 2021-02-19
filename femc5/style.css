@@ -7,7 +7,7 @@
 html{
     background-color: var(--violet);
     width: 375px;
-    background-image: url(/5/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg);
+    background-image: url(https://raw.githubusercontent.com/MOLDStudio/Maggio/c8293272014ba131f10d3c76128f07e3be1e09bd/femc5/images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: 100%;    
 }
@@ -27,7 +27,7 @@ body{
 @media screen and (min-width: 768px) {
     body{
         width: 100%;
-        background-image: url(/5/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+        background-image: url(https://raw.githubusercontent.com/MOLDStudio/Maggio/c8293272014ba131f10d3c76128f07e3be1e09bd/femc5/images/bg-desktop.svg);
         background-position: left;
         background-size: 90% 100%;
         background-repeat: no-repeat;
