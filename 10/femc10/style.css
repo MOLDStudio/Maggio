@@ -157,7 +157,7 @@
   
   .form-field::after {
     display: none;
-    content: url(/10/base-apparel-coming-soon-master/images/icon-error.svg);
+    content: url(/images/icon-error.svg);
     position: absolute;
     top: 12px;
     right: 65px;
