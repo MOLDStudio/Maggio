@@ -40,7 +40,7 @@
         
         }
         body::before{
-            content: url(/6/faq-accordion-card-main/images/illustration-woman-online-desktop.svg);
+            content: url(/images/illustration-woman-online-desktop.svg);
             position: absolute;
             transform: scale();
             margin-bottom: 11%;
@@ -52,7 +52,7 @@
     article {
         width: 90%;
         height: 535px;
-        background-image: url(/6/faq-accordion-card-main/images/bg-pattern-mobile.svg);
+        background-image: url(/images/bg-pattern-mobile.svg);
         background-position-x: center;
         background-position-y: top;
         background-size: 70%;
@@ -74,7 +74,7 @@
         padding-top: 5%;
         width: 60%;
         height: 390px;
-        background-image: url(/6/faq-accordion-card-main/images/bg-pattern-desktop.svg);
+        background-image: url(/images/bg-pattern-desktop.svg);
         background-position-x: -478px;
         background-position-y: 70%;
         background-size: 100%;
@@ -212,35 +212,35 @@
         transform: translateY(-90px);
     }
     .item::after{
-        content: url('/6/faq-accordion-card-main/images/icon-arrow-down.svg');
+        content: url('/images/icon-arrow-down.svg');
         display: inline-block;
         margin-left: 95%;
         position: absolute;   
     }
     .item:first-child:active::after{
         transform: rotate(180deg); 
-        content: url('/6/faq-accordion-card-main/images/icon-arrow-down.svg');
+        content: url('/images/icon-arrow-down.svg');
         margin-top: -33%;
     }
 
     .item:nth-child(2):active::after{
         transform: rotate(180deg); 
-        content: url('/6/faq-accordion-card-main/images/icon-arrow-down.svg');
+        content: url('/images/icon-arrow-down.svg');
         margin-top: -27%;
     }
     .item:nth-child(3):active::after{
         transform: rotate(180deg); 
-        content: url('/6/faq-accordion-card-main/images/icon-arrow-down.svg');
+        content: url('/images/icon-arrow-down.svg');
         margin-top: -33%;
     }
     .item:nth-child(4):active::after{
         transform: rotate(180deg); 
-        content: url('/6/faq-accordion-card-main/images/icon-arrow-down.svg');
+        content: url('/images/icon-arrow-down.svg');
         margin-top: -27%;
     }
     .item:last-child:active::after{
         transform: rotate(180deg); 
-        content: url('/6/faq-accordion-card-main/images/icon-arrow-down.svg');
+        content: url('/images/icon-arrow-down.svg');
         margin-top: -33%;
     }
     @media screen and (min-width: 768px) {
@@ -262,28 +262,28 @@
  
         .item:first-child:active::after{
             transform: rotate(180deg); 
-            content: url('/6/faq-accordion-card-main/images/icon-arrow-down.svg');
+            content: url('/images/icon-arrow-down.svg');
             margin-top: -22%;
         }
     
         .item:nth-child(2):active::after{
             transform: rotate(180deg); 
-            content: url('/6/faq-accordion-card-main/images/icon-arrow-down.svg');
+            content: url('/images/icon-arrow-down.svg');
             margin-top: -22%;
         }
         .item:nth-child(3):active::after{
             transform: rotate(180deg); 
-            content: url('/6/faq-accordion-card-main/images/icon-arrow-down.svg');
+            content: url('/images/icon-arrow-down.svg');
             margin-top: -27%;
         }
         .item:nth-child(4):active::after{
             transform: rotate(180deg); 
-            content: url('/6/faq-accordion-card-main/images/icon-arrow-down.svg');
+            content: url('/images/icon-arrow-down.svg');
             margin-top: -22%;
         }
         .item:last-child:active::after{
             transform: rotate(180deg); 
-            content: url('/6/faq-accordion-card-main/images/icon-arrow-down.svg');
+            content: url('/images/icon-arrow-down.svg');
             margin-top: -22%;
         }
     }
