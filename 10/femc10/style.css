@@ -1,0 +1,210 @@
+:root {
+    --desaturated-red: hsl(0, 36%, 70%);
+    --soft-red: hsl(0, 93%, 68%);
+    --dark-grayish-red: hsl(0, 6%, 24%);
+    --text-bold: hsl(0, 6%, 24%);
+    --light-gray: #bbbbbb;
+    --main-font: 'Josefin Sans', sans-serif;
+    --max-width: 500px;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: var(--main-font);
+  }
+  
+  /* Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%) */
+  /* Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%) */
+  
+  body {
+    margin: 0;
+  }
+  
+  @media screen and (min-width: 1280px) {
+    body {
+      background-color: var(--soft-red);
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+    }
+    
+    .grid-container {
+      display: grid;
+      grid-template-areas: "main-header image-container"
+                           "main image-container";
+      height: 650px;
+      background-color: white;
+      width: 1200px;
+    }
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .main-header {
+    padding: 24px;
+    grid-area: main-header;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .main-header {
+      padding-left: 64px;
+    }
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .image-container {
+    grid-area: image-container;
+    text-align: center;
+  }
+  
+  .image-container img {
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .image-container img {
+      max-width: var(--max-width);
+      border-radius: 4px;
+      box-shadow: 0 20px 40px var(--desaturated-red);
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .image-container {
+      height: 650px;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .image-container img {
+      display: block;
+      height: 650px;
+    }
+  }
+  
+  .main-title {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: var(--desaturated-red);
+    margin-bottom: 16px;
+    letter-spacing: 10px;
+  }
+  
+  .main-title span {
+    display: block;
+    font-weight: 600;
+    color: var(--dark-grayish-red);
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .main-title {
+      text-align: left;
+      max-width: 200px;
+      font-size: 48px;
+      line-height: 1;
+    }
+  }
+  
+  .main {
+    padding: 48px 32px;
+    grid-area: main;
+    margin: 0 auto;
+    max-width: var(--max-width);
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .main {
+      padding: 0;
+      margin-left: 64px;
+    }
+  }
+  
+  .paragraph {
+    color: var(--desaturated-red);
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    max-width: var(--max-width);
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .paragraph {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .paragraph {
+      max-width: 375px;
+    }
+  }
+  
+  .form {
+    max-width: var(--max-width);
+  }
+  
+  .form-field {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+  
+  .form-field::after {
+    display: none;
+    content: url(/10/base-apparel-coming-soon-master/images/icon-error.svg);
+    position: absolute;
+    top: 12px;
+    right: 65px;
+  }
+  
+  .form-message {
+    font-size: 12px;
+    padding-left: 16px;
+    margin-top: 8px;
+    color: var(--soft-red);
+    display: none;
+  }
+  
+  .input,
+  .button {
+    padding: 8px 16px;
+    border-radius: 30px;
+    height: 48px;
+  }
+  
+  .input {
+    flex-grow: .75;
+    border: none;
+    border-top: 1px solid var(--light-gray);
+    border-left: 1px solid var(--light-gray);
+    border-bottom: 1px solid var(--light-gray);
+  }
+  
+  .button {
+    width: 60px;
+    position: absolute;
+    right: 0;
+    border: none;
+    line-height: 48px;
+    text-align: center;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    box-shadow: 0 9px 27px -5px var(--desaturated-red);
+  }
+  
+  .form-field.error .form-message {
+    display: block;
+  }
+  
+  .form-field.error::after {
+    display: block;
+  }
+  
+  .form-field.error .input {
+    border-color: var(--soft-red);
+  }
