@@ -1,13 +1,11 @@
 html{
-    
+    background-color:hsl(185, 75%, 39%);
    
 }
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
     position: fixed;
-    width: 100%;
-    heigh: 100%;
     transform: scale(150%);
    
    
