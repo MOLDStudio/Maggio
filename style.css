@@ -7,7 +7,7 @@ html{
 #myVideo {
     position: fixed;
     transform: scale(150%);
-   
+   width: 100%;
    
    }
   
