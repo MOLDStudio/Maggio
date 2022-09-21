@@ -78,7 +78,7 @@ body{
     border-radius: 20px 20px 0px 0px;
     top: 0;
     left: 0;
-    bottom: 750px;
+    bottom: 100%;
     right: 0;
     margin: auto;
     background-image: url();
